@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363570D41ABA438F0003EB4E /* telaEntraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363570D31ABA438F0003EB4E /* telaEntraViewController.m */; };
+		363570D71ABA443D0003EB4E /* Inicial.m in Sources */ = {isa = PBXBuildFile; fileRef = 363570D61ABA443D0003EB4E /* Inicial.m */; };
 		36892E281ABA342100870725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36892E271ABA342100870725 /* main.m */; };
 		36892E2B1ABA342100870725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36892E2A1ABA342100870725 /* AppDelegate.m */; };
 		36892E2E1ABA342100870725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36892E2D1ABA342100870725 /* ViewController.m */; };
@@ -14,6 +16,14 @@
 		36892E331ABA342100870725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36892E321ABA342100870725 /* Images.xcassets */; };
 		36892E361ABA342100870725 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36892E341ABA342100870725 /* LaunchScreen.xib */; };
 		36892E421ABA342100870725 /* BestQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36892E411ABA342100870725 /* BestQuizTests.m */; };
+		36892E561ABA3F0E00870725 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36892E551ABA3F0E00870725 /* InterfaceController.m */; };
+		36892E591ABA3F0E00870725 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36892E581ABA3F0E00870725 /* NotificationController.m */; };
+		36892E5C1ABA3F0E00870725 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36892E5B1ABA3F0E00870725 /* GlanceController.m */; };
+		36892E5E1ABA3F0E00870725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36892E5D1ABA3F0E00870725 /* Images.xcassets */; };
+		36892E621ABA3F0E00870725 /* BestQuiz WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 36892E611ABA3F0E00870725 /* BestQuiz WatchKit App.app */; };
+		36892E6A1ABA3F0E00870725 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36892E681ABA3F0E00870725 /* Interface.storyboard */; };
+		36892E6C1ABA3F0F00870725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36892E6B1ABA3F0F00870725 /* Images.xcassets */; };
+		36892E6F1ABA3F0F00870725 /* BestQuiz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 36892E4F1ABA3F0E00870725 /* BestQuiz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +34,41 @@
 			remoteGlobalIDString = 36892E211ABA342100870725;
 			remoteInfo = BestQuiz;
 		};
+		36892E631ABA3F0E00870725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36892E1A1ABA342100870725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36892E601ABA3F0E00870725;
+			remoteInfo = "BestQuiz WatchKit App";
+		};
+		36892E6D1ABA3F0F00870725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36892E1A1ABA342100870725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36892E4E1ABA3F0E00870725;
+			remoteInfo = "BestQuiz WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		36892E761ABA3F0F00870725 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				36892E6F1ABA3F0F00870725 /* BestQuiz WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		363570D21ABA438F0003EB4E /* telaEntraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = telaEntraViewController.h; sourceTree = "<group>"; };
+		363570D31ABA438F0003EB4E /* telaEntraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = telaEntraViewController.m; sourceTree = "<group>"; };
+		363570D51ABA443D0003EB4E /* Inicial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inicial.h; sourceTree = "<group>"; };
+		363570D61ABA443D0003EB4E /* Inicial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inicial.m; sourceTree = "<group>"; };
 		36892E221ABA342100870725 /* BestQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36892E261ABA342100870725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36892E271ABA342100870725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +82,20 @@
 		36892E3B1ABA342100870725 /* BestQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36892E401ABA342100870725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36892E411ABA342100870725 /* BestQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestQuizTests.m; sourceTree = "<group>"; };
+		36892E4F1ABA3F0E00870725 /* BestQuiz WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BestQuiz WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36892E521ABA3F0E00870725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36892E531ABA3F0E00870725 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		36892E541ABA3F0E00870725 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		36892E551ABA3F0E00870725 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		36892E571ABA3F0E00870725 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		36892E581ABA3F0E00870725 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		36892E5A1ABA3F0E00870725 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		36892E5B1ABA3F0E00870725 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		36892E5D1ABA3F0E00870725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36892E611ABA3F0E00870725 /* BestQuiz WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestQuiz WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36892E671ABA3F0E00870725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36892E691ABA3F0E00870725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		36892E6B1ABA3F0F00870725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +113,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36892E4C1ABA3F0E00870725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +128,8 @@
 			children = (
 				36892E241ABA342100870725 /* BestQuiz */,
 				36892E3E1ABA342100870725 /* BestQuizTests */,
+				36892E501ABA3F0E00870725 /* BestQuiz WatchKit Extension */,
+				36892E651ABA3F0E00870725 /* BestQuiz WatchKit App */,
 				36892E231ABA342100870725 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +139,8 @@
 			children = (
 				36892E221ABA342100870725 /* BestQuiz.app */,
 				36892E3B1ABA342100870725 /* BestQuizTests.xctest */,
+				36892E4F1ABA3F0E00870725 /* BestQuiz WatchKit Extension.appex */,
+				36892E611ABA3F0E00870725 /* BestQuiz WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,8 +152,12 @@
 				36892E2A1ABA342100870725 /* AppDelegate.m */,
 				36892E2C1ABA342100870725 /* ViewController.h */,
 				36892E2D1ABA342100870725 /* ViewController.m */,
+				363570D51ABA443D0003EB4E /* Inicial.h */,
+				363570D61ABA443D0003EB4E /* Inicial.m */,
 				36892E2F1ABA342100870725 /* Main.storyboard */,
 				36892E321ABA342100870725 /* Images.xcassets */,
+				363570D21ABA438F0003EB4E /* telaEntraViewController.h */,
+				363570D31ABA438F0003EB4E /* telaEntraViewController.m */,
 				36892E341ABA342100870725 /* LaunchScreen.xib */,
 				36892E251ABA342100870725 /* Supporting Files */,
 			);
@@ -119,6 +190,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		36892E501ABA3F0E00870725 /* BestQuiz WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				36892E541ABA3F0E00870725 /* InterfaceController.h */,
+				36892E551ABA3F0E00870725 /* InterfaceController.m */,
+				36892E571ABA3F0E00870725 /* NotificationController.h */,
+				36892E581ABA3F0E00870725 /* NotificationController.m */,
+				36892E5A1ABA3F0E00870725 /* GlanceController.h */,
+				36892E5B1ABA3F0E00870725 /* GlanceController.m */,
+				36892E5D1ABA3F0E00870725 /* Images.xcassets */,
+				36892E511ABA3F0E00870725 /* Supporting Files */,
+			);
+			path = "BestQuiz WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		36892E511ABA3F0E00870725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36892E521ABA3F0E00870725 /* Info.plist */,
+				36892E531ABA3F0E00870725 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36892E651ABA3F0E00870725 /* BestQuiz WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				36892E681ABA3F0E00870725 /* Interface.storyboard */,
+				36892E6B1ABA3F0F00870725 /* Images.xcassets */,
+				36892E661ABA3F0E00870725 /* Supporting Files */,
+			);
+			path = "BestQuiz WatchKit App";
+			sourceTree = "<group>";
+		};
+		36892E661ABA3F0E00870725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36892E671ABA3F0E00870725 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +242,12 @@
 				36892E1E1ABA342100870725 /* Sources */,
 				36892E1F1ABA342100870725 /* Frameworks */,
 				36892E201ABA342100870725 /* Resources */,
+				36892E761ABA3F0F00870725 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				36892E6E1ABA3F0F00870725 /* PBXTargetDependency */,
 			);
 			name = BestQuiz;
 			productName = BestQuiz;
@@ -157,6 +272,39 @@
 			productReference = 36892E3B1ABA342100870725 /* BestQuizTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		36892E4E1ABA3F0E00870725 /* BestQuiz WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36892E731ABA3F0F00870725 /* Build configuration list for PBXNativeTarget "BestQuiz WatchKit Extension" */;
+			buildPhases = (
+				36892E4B1ABA3F0E00870725 /* Sources */,
+				36892E4C1ABA3F0E00870725 /* Frameworks */,
+				36892E4D1ABA3F0E00870725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36892E641ABA3F0E00870725 /* PBXTargetDependency */,
+			);
+			name = "BestQuiz WatchKit Extension";
+			productName = "BestQuiz WatchKit Extension";
+			productReference = 36892E4F1ABA3F0E00870725 /* BestQuiz WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		36892E601ABA3F0E00870725 /* BestQuiz WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36892E701ABA3F0F00870725 /* Build configuration list for PBXNativeTarget "BestQuiz WatchKit App" */;
+			buildPhases = (
+				36892E5F1ABA3F0E00870725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BestQuiz WatchKit App";
+			productName = "BestQuiz WatchKit App";
+			productReference = 36892E611ABA3F0E00870725 /* BestQuiz WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +320,12 @@
 					36892E3A1ABA342100870725 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 36892E211ABA342100870725;
+					};
+					36892E4E1ABA3F0E00870725 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					36892E601ABA3F0E00870725 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -190,6 +344,8 @@
 			targets = (
 				36892E211ABA342100870725 /* BestQuiz */,
 				36892E3A1ABA342100870725 /* BestQuizTests */,
+				36892E4E1ABA3F0E00870725 /* BestQuiz WatchKit Extension */,
+				36892E601ABA3F0E00870725 /* BestQuiz WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +368,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36892E4D1ABA3F0E00870725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36892E5E1ABA3F0E00870725 /* Images.xcassets in Resources */,
+				36892E621ABA3F0E00870725 /* BestQuiz WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36892E5F1ABA3F0E00870725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36892E6A1ABA3F0E00870725 /* Interface.storyboard in Resources */,
+				36892E6C1ABA3F0F00870725 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -222,6 +396,8 @@
 				36892E2E1ABA342100870725 /* ViewController.m in Sources */,
 				36892E2B1ABA342100870725 /* AppDelegate.m in Sources */,
 				36892E281ABA342100870725 /* main.m in Sources */,
+				363570D71ABA443D0003EB4E /* Inicial.m in Sources */,
+				363570D41ABA438F0003EB4E /* telaEntraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +409,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36892E4B1ABA3F0E00870725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36892E591ABA3F0E00870725 /* NotificationController.m in Sources */,
+				36892E561ABA3F0E00870725 /* InterfaceController.m in Sources */,
+				36892E5C1ABA3F0E00870725 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +426,16 @@
 			isa = PBXTargetDependency;
 			target = 36892E211ABA342100870725 /* BestQuiz */;
 			targetProxy = 36892E3C1ABA342100870725 /* PBXContainerItemProxy */;
+		};
+		36892E641ABA3F0E00870725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36892E601ABA3F0E00870725 /* BestQuiz WatchKit App */;
+			targetProxy = 36892E631ABA3F0E00870725 /* PBXContainerItemProxy */;
+		};
+		36892E6E1ABA3F0F00870725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36892E4E1ABA3F0E00870725 /* BestQuiz WatchKit Extension */;
+			targetProxy = 36892E6D1ABA3F0F00870725 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +454,14 @@
 				36892E351ABA342100870725 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		36892E681ABA3F0E00870725 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36892E691ABA3F0E00870725 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -395,6 +599,60 @@
 			};
 			name = Release;
 		};
+		36892E711ABA3F0F00870725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = BestQuiz_WatchKit_Extension;
+				INFOPLIST_FILE = "BestQuiz WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		36892E721ABA3F0F00870725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = BestQuiz_WatchKit_Extension;
+				INFOPLIST_FILE = "BestQuiz WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		36892E741ABA3F0F00870725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BestQuiz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		36892E751ABA3F0F00870725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BestQuiz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,6 +672,7 @@
 				36892E471ABA342100870725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36892E481ABA342100870725 /* Build configuration list for PBXNativeTarget "BestQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +681,25 @@
 				36892E4A1ABA342100870725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36892E701ABA3F0F00870725 /* Build configuration list for PBXNativeTarget "BestQuiz WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36892E711ABA3F0F00870725 /* Debug */,
+				36892E721ABA3F0F00870725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36892E731ABA3F0F00870725 /* Build configuration list for PBXNativeTarget "BestQuiz WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36892E741ABA3F0F00870725 /* Debug */,
+				36892E751ABA3F0F00870725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

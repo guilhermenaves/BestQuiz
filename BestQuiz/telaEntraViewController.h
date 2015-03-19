@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  telaEntraViewController.h
 //  BestQuiz
 //
 //  Created by Guilherme Naves on 3/18/15.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class Inicial;
 
-- (IBAction)entrarButton:(id)sender;
+@interface telaEntraViewController : UIViewController
+@property Inicial *nomes; 
 
 @end
-
