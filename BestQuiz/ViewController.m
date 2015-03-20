@@ -47,6 +47,11 @@
     return YES;
 }
 
+-(IBAction)entrarButton:(id)sender
+{
+    
+}
+
 - (void) setNome {
     
     box = [[Inicial alloc] initWithNome:_nome.text];
@@ -61,5 +66,7 @@
         tela.nomes = box;
     }
 }
+
+
 
 @end
