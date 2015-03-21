@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360282421ABDBA3600B83EF8 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 360282411ABDBA3600B83EF8 /* Question.m */; };
+		360282451ABDBA4700B83EF8 /* QuestionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 360282441ABDBA4700B83EF8 /* QuestionStore.m */; };
+		360282481ABDBA5A00B83EF8 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360282471ABDBA5A00B83EF8 /* QuestionViewController.m */; };
+		3602824B1ABDC12B00B83EF8 /* questoes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3602824A1ABDC12B00B83EF8 /* questoes.txt */; };
 		363570D41ABA438F0003EB4E /* telaEntraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363570D31ABA438F0003EB4E /* telaEntraViewController.m */; };
 		363570D71ABA443D0003EB4E /* Inicial.m in Sources */ = {isa = PBXBuildFile; fileRef = 363570D61ABA443D0003EB4E /* Inicial.m */; };
 		36892E281ABA342100870725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36892E271ABA342100870725 /* main.m */; };
@@ -24,6 +28,8 @@
 		36892E6A1ABA3F0E00870725 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36892E681ABA3F0E00870725 /* Interface.storyboard */; };
 		36892E6C1ABA3F0F00870725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36892E6B1ABA3F0F00870725 /* Images.xcassets */; };
 		36892E6F1ABA3F0F00870725 /* BestQuiz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 36892E4F1ABA3F0E00870725 /* BestQuiz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		36FC00041ABCE92D00FFAE3A /* Categoria.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FC00031ABCE92D00FFAE3A /* Categoria.m */; };
+		36FC00071ABCE9EF00FFAE3A /* UserCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FC00061ABCE9EF00FFAE3A /* UserCat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		360282401ABDBA3600B83EF8 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		360282411ABDBA3600B83EF8 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		360282431ABDBA4700B83EF8 /* QuestionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionStore.h; sourceTree = "<group>"; };
+		360282441ABDBA4700B83EF8 /* QuestionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionStore.m; sourceTree = "<group>"; };
+		360282461ABDBA5A00B83EF8 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		360282471ABDBA5A00B83EF8 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		3602824A1ABDC12B00B83EF8 /* questoes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questoes.txt; sourceTree = "<group>"; };
 		363570D21ABA438F0003EB4E /* telaEntraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = telaEntraViewController.h; sourceTree = "<group>"; };
 		363570D31ABA438F0003EB4E /* telaEntraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = telaEntraViewController.m; sourceTree = "<group>"; };
 		363570D51ABA443D0003EB4E /* Inicial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inicial.h; sourceTree = "<group>"; };
@@ -96,6 +109,10 @@
 		36892E671ABA3F0E00870725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36892E691ABA3F0E00870725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		36892E6B1ABA3F0F00870725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36FC00021ABCE92D00FFAE3A /* Categoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categoria.h; sourceTree = "<group>"; };
+		36FC00031ABCE92D00FFAE3A /* Categoria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categoria.m; sourceTree = "<group>"; };
+		36FC00051ABCE9EF00FFAE3A /* UserCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCat.h; sourceTree = "<group>"; };
+		36FC00061ABCE9EF00FFAE3A /* UserCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +140,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360282391ABDB9E900B83EF8 /* Questao */ = {
+			isa = PBXGroup;
+			children = (
+				360282401ABDBA3600B83EF8 /* Question.h */,
+				360282411ABDBA3600B83EF8 /* Question.m */,
+				360282431ABDBA4700B83EF8 /* QuestionStore.h */,
+				360282441ABDBA4700B83EF8 /* QuestionStore.m */,
+				360282461ABDBA5A00B83EF8 /* QuestionViewController.h */,
+				360282471ABDBA5A00B83EF8 /* QuestionViewController.m */,
+				360282491ABDC10C00B83EF8 /* Questoes */,
+			);
+			name = Questao;
+			sourceTree = "<group>";
+		};
+		360282491ABDC10C00B83EF8 /* Questoes */ = {
+			isa = PBXGroup;
+			children = (
+				3602824A1ABDC12B00B83EF8 /* questoes.txt */,
+			);
+			name = Questoes;
+			sourceTree = "<group>";
+		};
 		36892E191ABA342100870725 = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +195,8 @@
 				363570D61ABA443D0003EB4E /* Inicial.m */,
 				36892E2F1ABA342100870725 /* Main.storyboard */,
 				36892E321ABA342100870725 /* Images.xcassets */,
-				363570D21ABA438F0003EB4E /* telaEntraViewController.h */,
-				363570D31ABA438F0003EB4E /* telaEntraViewController.m */,
+				36FCFFFE1ABCE81D00FFAE3A /* telaEntrar */,
+				360282391ABDB9E900B83EF8 /* Questao */,
 				36892E341ABA342100870725 /* LaunchScreen.xib */,
 				36892E251ABA342100870725 /* Supporting Files */,
 			);
@@ -230,6 +269,19 @@
 				36892E671ABA3F0E00870725 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36FCFFFE1ABCE81D00FFAE3A /* telaEntrar */ = {
+			isa = PBXGroup;
+			children = (
+				363570D21ABA438F0003EB4E /* telaEntraViewController.h */,
+				363570D31ABA438F0003EB4E /* telaEntraViewController.m */,
+				36FC00021ABCE92D00FFAE3A /* Categoria.h */,
+				36FC00031ABCE92D00FFAE3A /* Categoria.m */,
+				36FC00051ABCE9EF00FFAE3A /* UserCat.h */,
+				36FC00061ABCE9EF00FFAE3A /* UserCat.m */,
+			);
+			name = telaEntrar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +410,7 @@
 				36892E311ABA342100870725 /* Main.storyboard in Resources */,
 				36892E361ABA342100870725 /* LaunchScreen.xib in Resources */,
 				36892E331ABA342100870725 /* Images.xcassets in Resources */,
+				3602824B1ABDC12B00B83EF8 /* questoes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,9 +446,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36FC00041ABCE92D00FFAE3A /* Categoria.m in Sources */,
 				36892E2E1ABA342100870725 /* ViewController.m in Sources */,
 				36892E2B1ABA342100870725 /* AppDelegate.m in Sources */,
+				36FC00071ABCE9EF00FFAE3A /* UserCat.m in Sources */,
+				360282451ABDBA4700B83EF8 /* QuestionStore.m in Sources */,
 				36892E281ABA342100870725 /* main.m in Sources */,
+				360282481ABDBA5A00B83EF8 /* QuestionViewController.m in Sources */,
+				360282421ABDBA3600B83EF8 /* Question.m in Sources */,
 				363570D71ABA443D0003EB4E /* Inicial.m in Sources */,
 				363570D41ABA438F0003EB4E /* telaEntraViewController.m in Sources */,
 			);

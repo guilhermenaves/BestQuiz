@@ -47,8 +47,7 @@
     return YES;
 }
 
--(IBAction)entrarButton:(id)sender
-{
+-(IBAction)entrarButton:(id)sender{
     
 }
 

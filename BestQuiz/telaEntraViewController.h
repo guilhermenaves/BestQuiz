@@ -10,7 +10,10 @@
 
 @class Inicial;
 
-@interface telaEntraViewController : UIViewController
-@property Inicial *nomes; 
+@interface telaEntraViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+-(IBAction)escolherButtom:(id)sender;
+
+@property Inicial *nomes;
+@property NSArray *categoria1;
 
 @end
